@@ -1,4 +1,3 @@
 x = input()
-x = x.encode('unicode_escape')
 
-print("%s\n"%x)
+print(hex(ord(x))[2:])

@@ -1,4 +1,3 @@
-x = input()
-x = x.encode.decode('unicode_escape')
+x = str(input())
 
-print("%s\n"%x)
+print(chr(ord(x)))
